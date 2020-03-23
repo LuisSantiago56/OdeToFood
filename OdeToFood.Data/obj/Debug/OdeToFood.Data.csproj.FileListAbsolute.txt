@@ -1,0 +1,6 @@
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\bin\Debug\OdeToFood.Data.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\bin\Debug\OdeToFood.Data.pdb
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csprojAssemblyReference.cache
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.CoreCompileInputs.cache
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.pdb

@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using System.Web.Http;
 
 namespace OdeToFood.Web
 {
@@ -14,9 +15,10 @@ namespace OdeToFood.Web
         {
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+            GlobalConfiguration.Configure(WebApiConfig.Register); // Needs to go before the RouteConfig !
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            ContainerConfig.RegisterContainer();
-        }
+            ContainerConfig.RegisterContainer(GlobalConfiguration.Configuration); // we are passing the Global Configuration so we can configure the http calls for Web APIs
+        }                                                                           // without it the ContainerConfig.RegisterContainer() will be only useful for the Web MVC
     }
 }

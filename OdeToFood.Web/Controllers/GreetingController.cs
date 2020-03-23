@@ -11,10 +11,15 @@ namespace OdeToFood.Web.Controllers
     public class GreetingController : Controller
     {
         // GET: Greeting
-        public ActionResult Index()
+        public ActionResult Index(string name)
         {
             var model = new GreetingViewModel();
+            // instead of accessing the parameter directly I can 
+            // add it on the method parameter and mvc will know that it
+            // should map a query string
+            // var name = HttpContext.Request.QueryString["name"];
             model.Message = ConfigurationManager.AppSettings["message"];
+            model.Name = name ?? "no name";
             return View(model);
         }
     }

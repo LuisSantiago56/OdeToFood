@@ -20,8 +20,14 @@ namespace OdeToFood.Web
                 // home -> value of the controller
                 // contact -> value of the action
                 // 1 -> value of the id
+
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+
+                //Difference between this two is that the key is now going to be passed as a key,value
+                // {action}?id=3  while id is passed as a path {action}/id
+                //url: "{controller}/{action}/{key}",
+                //defaults: new { controller = "Home", action = "Index", key = UrlParameter.Optional }
             );
         }
     }

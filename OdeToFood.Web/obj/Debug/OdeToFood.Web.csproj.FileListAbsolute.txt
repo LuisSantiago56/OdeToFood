@@ -79,3 +79,7 @@ C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\obj\Debug\OdeToFood.Web.pdb
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\bin\OdeToFood.Data.dll
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\bin\OdeToFood.Data.pdb
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\bin\Autofac.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\bin\Autofac.xml
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\bin\Autofac.Integration.Mvc.xml

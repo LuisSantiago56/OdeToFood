@@ -19,10 +19,21 @@ namespace OdeToFood.Data.Services
             };
         }
 
-        public Restaurant Edit(int id)
+        public void Add(Restaurant restaurant)
         {
-            throw new NotImplementedException();
+            restaurants.Add(restaurant);
+            restaurant.Id = restaurants.Max(r => r.Id) + 1;
         }
+
+        public void Update(Restaurant restaurant)
+        {
+            var existing = Get(restaurant.Id);
+            if(existing != null)
+            {
+                existing.Name = restaurant.Name;
+                existing.Cuisine = restaurant.Cuisine;
+            }
+        }         
 
         public Restaurant Get(int id)
         {

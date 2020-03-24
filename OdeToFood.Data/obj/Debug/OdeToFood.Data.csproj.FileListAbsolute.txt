@@ -4,3 +4,8 @@ C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Dat
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.CoreCompileInputs.cache
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.dll
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.pdb
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.xml
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.CopyComplete

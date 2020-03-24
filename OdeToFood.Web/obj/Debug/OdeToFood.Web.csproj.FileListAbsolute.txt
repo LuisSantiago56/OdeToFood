@@ -99,3 +99,7 @@ C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\bin\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\bin\EntityFramework.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\bin\EntityFramework.xml
+C:\Users\Edgewater\Documents\Visual Studio 2019\Projects\OdeToFood\OdeToFood.Web\bin\EntityFramework.SqlServer.xml

@@ -19,9 +19,19 @@ namespace OdeToFood.Web
 
             builder.RegisterControllers(typeof(MvcApplication).Assembly);
             builder.RegisterApiControllers(typeof(MvcApplication).Assembly);
+
+            /*
             builder.RegisterType<InMemoryRestaurantData>()
                 .As<IRestaurantData>()
                 .SingleInstance();
+                */
+
+            builder.RegisterType<SqlRestaurantData>()
+                .As<IRestaurantData>()
+                .InstancePerRequest();
+            //Now I dont want to be a Single Instance because DB context is not a safe thread class
+
+            builder.RegisterType<OdeToFoodDbContext>().InstancePerRequest();
 
             var container = builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
